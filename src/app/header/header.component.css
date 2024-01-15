@@ -1,0 +1,52 @@
+/* navbar */
+#navbar{
+  background-color: rgb(67,0,86);
+}
+#logo{
+  margin-left: 15px;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 6px;
+
+}
+#logo span{
+  color: #ff0099;
+}
+#logo #span1{
+  font-size: 30px;
+}
+.navbar-nav{
+  margin-left: 20px;
+}
+.nav-item{
+  margin-left: 10px;
+}
+.nav-item .nav-link{
+  color: white;
+  margin-left: 2px;
+  text-shadow: 0px 0px 1px black;
+  transform: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+  color: #ff0099;
+}
+.dropdown-menu li a {
+  color: white;
+  transform: 0.5s ease;
+}
+.dropdown-menu li a:hover{
+  background-color: rgb(67,0,86);
+  color: #ff0099;
+}
+#search input{
+  border-radius: 50px;
+  border: white;
+}
+#search button{
+  border-radius: 50px;
+  color: white;
+  border: 1px solid #ff0099;
+  background-color: #ff0099;
+}
+/* navbar */

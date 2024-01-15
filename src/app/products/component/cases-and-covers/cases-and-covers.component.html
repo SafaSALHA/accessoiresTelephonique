@@ -1,0 +1,19 @@
+<div class="card" id="card-proudect">
+  <h1 class="text-center" id="Earphone">Cases And Covers</h1>
+  <div class="row" >
+  <div class="col-md-6 py-6 py-md-0"*ngFor="let i of paginatedCases_and_covers ; let index" >
+
+   <app-case  [src]="i.src" [prix]="i.prix" [name]="i.name" [id]="i.id" [data]="i" (item)="addToCart($event)"></app-case>
+
+    </div>
+    </div>
+
+  <!-- Ajouter les boutons de pagination -->
+  <div class="text-center mt-3">
+    <button class="btn btn-secondary" *ngFor="let page of createNumberArray()" (click)="setPage(page)"  [class.page-number-active]="isPageActive(page)">
+      {{ page }}
+    </button>
+
+  </div>
+</div>
+

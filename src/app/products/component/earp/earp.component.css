@@ -1,0 +1,160 @@
+
+
+.card{
+  height: 500px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  margin: 30px;
+
+}
+ .card img{
+  margin: auto;
+
+
+}
+t .card h3{
+  font-size: 25px;
+  color: black;
+}
+.link {
+
+  text-decoration: none; /* Remove default underline */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.link:hover {
+  color: #ff0099; /* Hover color */
+  text-decoration: underline; /* Add underline on hover */
+}
+ .card p{
+
+  font-size: 12px;
+  margin: 30px;
+  color: black;
+}
+.star i{
+  margin-left: 5px;
+  font-size: 13px;
+}
+.checked {
+  color: #ff0099;
+}
+ .card h2{
+  font-size: 20px;
+  color: black;
+  margin: 50px;
+}
+ .card h2 span{
+  float: right;
+  color: black;
+  cursor: pointer;
+
+}
+.card h2 button{
+ margin: 10px;
+ background-color: #ff0099;
+}
+.form-control{
+  width: 100px;
+  height: 50px;
+}
+
+
+
+@media screen and (max-width:1300px){
+
+
+     .card img{
+      margin: 20px 60px 20px 60px;
+      height: 150px;
+      width: 100px
+
+    }
+     .card h3{
+      font-size: 20px;
+    }
+     .card p{
+
+      font-size: 10px;
+      margin: 10px;
+    }
+    .star i{
+      margin-left: 5px;
+      font-size: 13px;
+    }
+
+     .card h2{
+      font-size: 18px;
+      margin: 40px;
+    }
+
+
+
+}
+@media screen and (max-width:1000px){
+
+
+  .card img{
+    margin: 0;
+    height: 130px;
+    width: 80px
+
+  }
+  .card h3{
+    font-size: 18px;
+  }
+  .card p{
+
+    font-size: 8px;
+    margin: 8px;
+  }
+  .star i{
+    margin-left: 3px;
+    font-size: 10px;
+  }
+
+  .card h2{
+    font-size: 16px;
+    margin: 30px;
+  }
+
+
+
+}
+
+@media screen and (max-width:950px){
+
+
+   .card img{
+    margin: 0;
+    height: 50px;
+    width: 30px
+
+  }
+   .card h3{
+    font-size: 5px;
+  }
+  .card p{
+
+    font-size: 5px;
+    margin: 5px;
+  }
+  .star i{
+    margin-left: 2px;
+    font-size: 5px;
+  }
+
+  t .card h2{
+    font-size: 5px;
+    margin: 3px;
+  }
+
+
+
+
+}
+
+
+
+

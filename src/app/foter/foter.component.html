@@ -1,0 +1,51 @@
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Computer Shop</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa provident minus quaerat aliquam, ipsam, quas voluptatum blanditiis fuga ex dignissimos consequuntur
+            <br>
+             natus fugiat possimus, fugit.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-link">
+          <h4>Useful Link</h4>
+          <ul>
+            <li ><a  href="index.html">Home</a></li>
+            <li ><a href="#accessories-cards">Product</a></li>
+
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-link">
+          <h4>Category</h4>
+          <ul >
+            <li *ngFor="let category of categories">
+              <a  [href]="category.url">{{ category.name }}</a>
+            </li>
+            </ul>
+          
+        </div>
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Our Social Networks</h4>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <div class="social-links mt-3">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container py-4">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Computer Shop</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by <a href="#">Sa coding</a>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,23 @@
+<div class="card">
+  <img [src]="src" style="width: 250px; height: 200px;">
+  <div class="card-body">
+    <h3 class="text-center link" routerLink="/PowerBankDetaille/{{ id }}">{{ name }}</h3>
+    <p class="text-center">Lorem ipsum dolor sit amet .</p>
+    <div class="star text-center">
+      <i class="fa-solid fa-star checked"></i>
+      <i class="fa-solid fa-star checked"></i>
+      <i class="fa-solid fa-star checked"></i>
+      <i class="fa-solid fa-star checked"></i>
+      <i class="fa-solid fa-star checked"></i>
+    </div>
+    <h2>{{ prix }} DT<span>
+      <li  class="fa-solid fa-cart-shopping"  *ngIf="!addButton" (click)="addButton = true"></li>
+      <div class="d-flex w-50" *ngIf="addButton">
+        <input type="number" class="form-control flex-grow-1" [(ngModel)] = "amonet" />
+
+        <button class=" ml-2" (click)="add(); addButton = false" >Add</button>
+
+      </div>
+    </span></h2>
+  </div>
+</div>
